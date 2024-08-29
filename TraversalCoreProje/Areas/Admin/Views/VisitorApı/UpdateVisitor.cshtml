@@ -1,0 +1,27 @@
+﻿@model TraversalCoreProje.Areas.Admin.Models.VisitorViewModel
+@{
+    ViewData["Title"] = "UpdateVisitor";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Ziyaretçi Güncelleme</h1>
+
+
+<form method="post">
+    <label>Ziyaretçi Adı</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+    <label>Ziyaretçi Soyadı</label>
+    <input type="text" class="form-control" asp-for="Surname" />
+    <br />
+    <label>Ziyaretçi Soyadı</label>
+    <input type="text" class="form-control" asp-for="Mail" />
+    <br />
+    <label>Ziyaretçi Soyadı</label>
+    <input type="text" class="form-control" asp-for="City" />
+    <br />
+    <label>Ziyaretçi Soyadı</label>
+    <input type="text" class="form-control" asp-for="Country" />
+    <br />
+    <button class="btn btn-outline-primary">Güncelle</button>
+</form>

@@ -29,7 +29,7 @@
 
 ## Projeye ait Görseller. 
 ![Ekran Görüntüsü (148)](https://github.com/user-attachments/assets/da6c85c0-04d0-41f1-b2ae-748b5064f636)
-![Ekran Görüntüsü (149)](https://github.com/user-attachments/assets/97972b7c-9541-4303-8cbf-376db14fee67)
+![Ekran Görüntüsü (162)](https://github.com/user-attachments/assets/905376f3-b3b9-4cb0-a012-5f40e7cfe40b)
 ![Ekran Görüntüsü (150)](https://github.com/user-attachments/assets/c43bb02e-37c8-48f2-8b7b-a9ae99be1536)
 ![Ekran Görüntüsü (151)](https://github.com/user-attachments/assets/26c6978e-1393-4391-8997-80bde9f55ce6)
 ![Ekran Görüntüsü (152)](https://github.com/user-attachments/assets/3e1b1576-2ee0-4b25-ab02-75e22a1f2f5d)

@@ -358,6 +358,7 @@
     <PackageReference Include="ClosedXML" Version="0.102.3" />
     <PackageReference Include="EPPlus" Version="7.3.0" />
     <PackageReference Include="MailKit" Version="4.7.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -383,7 +384,6 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Member\Data\" />
-    <Folder Include="CQRS\Commands\" />
     <Folder Include="wwwroot\Logs\" />
     <Folder Include="wwwroot\userimages\" />
     <Folder Include="wwwroot\soft-ui-dashboard\.git\objects\info\" />

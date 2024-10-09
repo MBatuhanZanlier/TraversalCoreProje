@@ -6,9 +6,9 @@
 
 <h1>CQRS TUR VERİLERİ</h1>
 
-<br />   
-<table class="table table-bordered">  
-    <tr> 
+<br />
+<table class="table table-bordered">
+    <tr>
         <th>#</th>
         <th>Şehir</th>
         <th>Gün-Gece</th>
@@ -16,17 +16,17 @@
         <th>Kapasite</th>
         <th>Sil</th>
         <th>Güncelle</th>
-    </tr> 
+    </tr>
     @foreach (var item in Model)
-    { 
-        <tr>  
-        <td>@item.Id</td>
-        <td>@item.city</td>
-        <td>@item.capacity</td>
-        <td>@item.price</td>
-        <td>@item.daynight</td>
-        <td><a href="#" class="btn btn-outline-danger">Sil</a></td>
-        <td><a href="#" class="btn btn-outline-sucsess">Güncelle</a></td>
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.city</td>
+            <td>@item.capacity</td>
+            <td>@item.price ₺</td>
+            <td>@item.daynight</td>
+            <td><a href="/Admin/DestinationCQRS/DeleteDestination/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/DestinationCQRS/GetDestination/@item.Id" class="btn btn-outline-sucsess">Güncelle</a></td>
         </tr>
     }
 </table>

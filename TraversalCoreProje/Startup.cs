@@ -2,6 +2,7 @@ using BussinessLayer.Container;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,6 +29,12 @@ namespace TraversalCoreProje
         public void ConfigureServices(IServiceCollection services)
         { 
             services.AddScoped<GetAllDestinationQueryHandler>();
+            services.AddScoped<GetDestinationByIdQueryHandler>();
+            services.AddScoped<CreateDestinationCommandHandler>();
+            services.AddScoped<RemoveDestinationCommandHandler>();
+            services.AddScoped<UpdateDestinationCommandHandler>();
+
+            services.AddMediatR(typeof(Startup));
             services.AddLogging(x =>
             {
                 x.ClearProviders();
@@ -57,6 +64,11 @@ namespace TraversalCoreProje
                 config.Filters.Add(new AuthorizeFilter(policy));
             });  
             services.AddMvc();
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Login/SignIn/";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

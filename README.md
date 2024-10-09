@@ -1,4 +1,4 @@
-
+# TraversalCoreProje
 - TraversalCoreProje, kullanıcıların gezilecek yerler hakkında bilgi edinebilecekleri, tur detaylarını öğrenebilecekleri ve belirli tarih aralıklarında rezervasyon yapabilecekleri bir web uygulamasıdır.
 
 ## Özellikler
@@ -28,7 +28,6 @@
 - MSSQL 
 
 ## Projeye ait Görseller. 
-
 ![Ekran Görüntüsü (148)](https://github.com/user-attachments/assets/da6c85c0-04d0-41f1-b2ae-748b5064f636)
 ![Ekran Görüntüsü (149)](https://github.com/user-attachments/assets/97972b7c-9541-4303-8cbf-376db14fee67)
 ![Ekran Görüntüsü (150)](https://github.com/user-attachments/assets/c43bb02e-37c8-48f2-8b7b-a9ae99be1536)
@@ -37,13 +36,12 @@
 ![Ekran Görüntüsü (153)](https://github.com/user-attachments/assets/9b4433dd-fb74-4d76-8b13-6e055276da4b)
 ![Ekran Görüntüsü (154)](https://github.com/user-attachments/assets/694bab70-9b59-45ec-be1e-301d8c1ed04e)
 ![Ekran Görüntüsü (155)](https://github.com/user-attachments/assets/bec8e171-ab43-4d1c-92ed-58298d53d238)
-##Admin Paneli
 ![Ekran Görüntüsü (156)](https://github.com/user-attachments/assets/019a0760-0672-4a5c-a909-713e19a6e166)
 ![Ekran Görüntüsü (157)](https://github.com/user-attachments/assets/1a585e84-d1fa-4313-861e-f848d8532bab)
 ![Ekran Görüntüsü (158)](https://github.com/user-attachments/assets/a5885dd3-ff52-4b3d-a672-62cc7b40eb9d)
 ![Ekran Görüntüsü (159)](https://github.com/user-attachments/assets/5659009f-51e7-423a-93a4-fc4efbb6379a)
 
-##Login İşlemleri
+## Login İşlemleri
 ![Ekran Görüntüsü (161)](https://github.com/user-attachments/assets/76579ddb-0662-47fb-b509-ab1c6f1f243b)
 ![Ekran Görüntüsü (160)](https://github.com/user-attachments/assets/e895f6c6-48dc-47b5-927e-7c1562428d67)
 

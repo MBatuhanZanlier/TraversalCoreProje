@@ -1,33 +1,33 @@
-![Ekran Görüntüsü (157)](https://github.com/user-attachments/assets/17469fa3-8456-48fc-b2b8-76d07c2143da)![Ekran Görüntüsü (156)](https://github.com/user-attachments/assets/6f8a2e09-51b4-4532-a9c6-ea60287b5322)#TraversalCoreProje
--TraversalCoreProje, kullanıcıların gezilecek yerler hakkında bilgi edinebilecekleri, tur detaylarını öğrenebilecekleri ve belirli tarih aralıklarında rezervasyon yapabilecekleri bir web uygulamasıdır.
 
-##Özellikler
--Kullanıcı Bilgisi: Kullanıcılar, site üzerinden farklı gezi turları hakkında detaylı bilgilere ulaşabilir.
--Rezervasyon Yönetimi: Üye kullanıcılar, Member Paneli üzerinden onay bekleyen, geçmiş ve aktif rezervasyonlarını görüntüleyebilir ve yönetebilir.
--Admin Paneli: Yönetici kullanıcılar, siteyle ilgili tüm CRUD (Create, Read, Update, Delete) işlemlerini gerçekleştirebilir.
-###Kullanım
--Siteye üye olun.
--İlgilendiğiniz turları keşfedin.
--Belirli bir tarih aralığında rezervasyon yapın.
--Üyelik panelinizden rezervasyonlarınızı yönetin. 
+- TraversalCoreProje, kullanıcıların gezilecek yerler hakkında bilgi edinebilecekleri, tur detaylarını öğrenebilecekleri ve belirli tarih aralıklarında rezervasyon yapabilecekleri bir web uygulamasıdır.
 
-##Kullanılan Teknolojiler ve Yaklaşımlar
--.NET Core 5
--Entity Framework Core
--DTO (Data Transfer Object)
--Repository Design Pattern
--Unit Of Work Design Pattern
--MediatR Design Pattern
--CQRS (Command Query Responsibility Segregation) Design Pattern
--Dependency Injection
--N-Tier Architecture
--Fluent Validation 
--AutoMapper
--Rapid API
--Identity
--MSSQL 
+## Özellikler
+- Kullanıcı Bilgisi: Kullanıcılar, site üzerinden farklı gezi turları hakkında detaylı bilgilere ulaşabilir.
+- Rezervasyon Yönetimi: Üye kullanıcılar, Member Paneli üzerinden onay bekleyen, geçmiş ve aktif rezervasyonlarını görüntüleyebilir ve yönetebilir.
+- Admin Paneli: Yönetici kullanıcılar, siteyle ilgili tüm CRUD (Create, Read, Update, Delete) işlemlerini gerçekleştirebilir.
+### Kullanım
+- Siteye üye olun.
+- İlgilendiğiniz turları keşfedin.
+- Belirli bir tarih aralığında rezervasyon yapın.
+- Üyelik panelinizden rezervasyonlarınızı yönetin. 
 
-##Projeye ait Görseller. 
+## Kullanılan Teknolojiler ve Yaklaşımlar
+- .NET Core 5
+- Entity Framework Core
+- DTO (Data Transfer Object)
+- Repository Design Pattern
+- Unit Of Work Design Pattern
+- MediatR Design Pattern
+- CQRS (Command Query Responsibility Segregation) Design Pattern
+- Dependency Injection
+- N-Tier Architecture
+- Fluent Validation 
+- AutoMapper
+- Rapid API
+- Identity
+- MSSQL 
+
+## Projeye ait Görseller. 
 
 ![Ekran Görüntüsü (148)](https://github.com/user-attachments/assets/da6c85c0-04d0-41f1-b2ae-748b5064f636)
 ![Ekran Görüntüsü (149)](https://github.com/user-attachments/assets/97972b7c-9541-4303-8cbf-376db14fee67)
